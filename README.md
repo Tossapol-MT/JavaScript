@@ -1,2 +1,2 @@
-# JavaScrip
-JavaScrip Class
+# JavaScript
+JavaScript Class
