@@ -1,6 +1,5 @@
-const equation = (a, b) => {
-    return a + b;
-    }
+function equation (a, b){
 
-console.log(equation(1, 1));
-
+    return console.log("10+10");
+    
+}
