@@ -13,3 +13,4 @@ console.log(arr3[2]); //Last index of array
 console.log(arr3[arr3.length - 1]); //Index : 2
 console.log(arr3[0]); //No value yet
 console.log(arr3[1]); //No value yet
+console.log(arr1);
