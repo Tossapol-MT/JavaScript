@@ -1,7 +1,7 @@
 let arr1 = ["A", true, 2];
 
 console.log("\n*******Length and index********\n");
-console.log(arr1.length);
+console.log(arr1.length); //ปริ้นความยาว
 console.log(arr1[3]); //Doesn't exist
 console.log(arr1[2]); //Last index of array
 console.log(arr1[arr1.length - 1 ]); //Equals 2
