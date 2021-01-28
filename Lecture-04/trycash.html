@@ -8,12 +8,18 @@
 
     <script>
         try {
-            lalala;
+            lalala; //error, variable is not defined
         } catch (err) {
-            alert(err.name);
-            alert(err.message);
+            alert(err.name); //ReferenctError
+            alert(err.message);// lalala is not defined
             alert(err.stack);
-            alert(err);
+            //ReferenceError : lalala is not defined at (...call stak)
+
+            //Can also show an error as a whole
+            //the error is converted to string as "name : message"
+
+            alert(err); //ReferenceError : lalala is not defined
+            
         }
     </script>
 </body>
