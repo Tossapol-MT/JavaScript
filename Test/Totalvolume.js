@@ -8,7 +8,6 @@ function totalVolume() {
         plus += mul;
         mul = 1;
     }
-
     return plus;
 }
 

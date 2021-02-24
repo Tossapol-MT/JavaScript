@@ -1,5 +1,4 @@
 function capToFront(mes) {
-
     let up = "";
     let down = "";
     for (let index = 0; index < mes.length; index++) {
@@ -13,4 +12,6 @@ function capToFront(mes) {
     return up + down;
 }
 
-console.log(capToFront("HelLLLLoWN"));
+console.log(capToFront("hApPy"));
+console.log(capToFront("moveMENT"));
+console.log(capToFront("shOrtCAKE"));
